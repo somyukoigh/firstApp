@@ -25,3 +25,4 @@ namespace ConsoleApp1.Generation
         }
     }
 }
+//i lov nuora
