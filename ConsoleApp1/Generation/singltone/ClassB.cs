@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Generation
 {
-    internal class ClassB
+    internal class ClassB : ILogger 
     {
+        public Logger log;
         public ClassB()
         {
-            Logger log = Logger.GetInstance();
+            log = Logger.GetInstance();
             log.Log("Class B was init");
 
             Console.WriteLine(log.GetHashCode());
