@@ -64,6 +64,7 @@
     <Compile Include="Generation\prototype\ITask.cs" />
     <Compile Include="Generation\singltone\ClassA.cs" />
     <Compile Include="Generation\singltone\ClassB.cs" />
+    <Compile Include="Generation\singltone\ILogger.cs" />
     <Compile Include="Generation\singltone\Logger.cs" />
     <Compile Include="Generation\prototype\Prototype.cs" />
     <Compile Include="Generation\singltone\Singlton.cs" />
